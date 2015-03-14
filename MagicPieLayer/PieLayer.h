@@ -39,6 +39,7 @@ typedef enum ShowTitles
 - (void)addValues:(NSArray*)addingNewValues animated:(BOOL)animated;
 - (void)deleteValues:(NSArray*)valuesToDelete animated:(BOOL)animated;
 - (void)insertValues:(NSArray *)array atIndexes:(NSArray*)indexes animated:(BOOL)animated;
+- (int)count;
 
 @property (nonatomic, assign) float maxRadius;//default 100
 @property (nonatomic, assign) float minRadius;//default 0

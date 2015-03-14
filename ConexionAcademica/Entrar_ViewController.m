@@ -68,7 +68,7 @@
     manager.responseSerializer.acceptableContentTypes = [manager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/html"];
     
     NSString *URL =
-    @"http://airefon-com-w2e6bowtidfy.runscope.net/conexion/webservices/client/clientSignin.php";
+    @"http://airefon.com/conexion/webservices/client/clientSignin.php";
     NSDictionary *parameters = @{
                                  @"user_email": correo,
                                  @"user_pass": password

@@ -632,6 +632,12 @@ static NSString * const _animationValuesKey = @"animationValues";
     return nil;
 }
 
+
+-(int)count
+{
+    return 10;
+}
+
 - (void)dealloc
 {
     //only for pie created by user

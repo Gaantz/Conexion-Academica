@@ -12,6 +12,8 @@
 #import "Session_DTO.h"
 #import "MBProgressHUD.h"
 #import "Student_DTO.h"
+#import "CalificationTableViewController.h"
+#import "MonitoringTableViewController.h"
 #import "MessageTableViewController.h"
 
 @implementation Control_TabBarController
@@ -61,9 +63,17 @@
     
     [session saveStudent:student];
     // Instance
-    MessageTableViewController *view = (MessageTableViewController*)
-                                       [[self viewControllers] objectAtIndex:0];
-    [view updateTable];
+    MessageTableViewController *a = (MessageTableViewController*)
+    [[self viewControllers] objectAtIndex:0];
+    CalificationTableViewController *b = (CalificationTableViewController*)
+    [[self viewControllers] objectAtIndex:2];
+    MonitoringTableViewController*c = (MonitoringTableViewController*)
+    [[self viewControllers] objectAtIndex:1];
+
+        [a updateTable];
+        [b updateTable];
+        [c updateTable];
+    
 }
 
 

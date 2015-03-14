@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MonitoringTableViewController : UITableViewController
-
+-(void)updateTable;
 @end

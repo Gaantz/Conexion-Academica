@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CalificationTableViewController : UITableViewController
-
+-(void)updateTable;
 @end

@@ -18,15 +18,6 @@
 - (void)awakeFromNib {
     // Initialization code
     
-    /*
-    for (int i = 0 ; i < 10 ; i++) {
-        SelfPieElement *element = [SelfPieElement pieElementWithValue:5.0 color:UIColorFromRGB(0x2ecc71)];
-        element.title = [NSString stringWithFormat:@"%d",i];
-        [_custom_chart.layer addValues:@[element] animated:NO];
-    }
-    _custom_chart.layer.showTitles = ShowTitlesAlways;
-     */
-    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

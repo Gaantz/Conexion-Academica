@@ -25,6 +25,14 @@
 
 @implementation MonitoringTableViewController
 
+-(void)updateTable
+{
+    Session_DTO *session = [[Session_DTO alloc]init];
+    student = [session currentStudent];
+    monitorings = [[NSMutableArray alloc] init];
+    [self getMonitoring:student.STUDENT_ID];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -71,6 +79,73 @@
     item.month.text =  monitoring.MONITORING_DATE;
     item.date.text = monitoring.MONITORING_DATE;
     
+    NSString *eval = monitoring.MONITORING_EVALUATION;
+    item.eval_text.text = eval;
+    if([eval isEqualToString:@"0"]){
+        UIImage *image = [UIImage imageNamed: @"ic_bad.png"];
+        item.image_evaluacion.image = image;
+    }else{
+        UIImage *image = [UIImage imageNamed: @"ic_good.png"];
+        item.image_evaluacion.image = image;
+    }
+    
+    //
+    NSString *mate = monitoring.MONITORING_MATERIAL;
+    item.mate_text.text = mate;
+    if([mate isEqualToString:@"0"]){
+        UIImage *image = [UIImage imageNamed: @"ic_bad.png"];
+        item.image_material.image = image;
+    }else{
+        UIImage *image = [UIImage imageNamed: @"ic_good.png"];
+      
+        item.image_material.image = image;
+    }
+    
+    //
+    NSString *traba = monitoring.MONITORING_WORK;
+    item.trab_text.text = traba;
+    if([traba isEqualToString:@"0"]){
+        UIImage *image = [UIImage imageNamed: @"ic_bad.png"];
+        item.image_trabajo.image = image;
+    }else{
+        UIImage *image = [UIImage imageNamed: @"ic_good.png"];
+        item.image_trabajo.image = image;
+    }
+    
+    //
+    NSString *proy = monitoring.MONITORING_PROJECT;
+    item.proy_text.text = proy;
+    if([proy isEqualToString:@"0"]){
+        UIImage *image = [UIImage imageNamed: @"ic_bad.png"];
+        item.image_proyecto.image = image;
+    }else{
+        UIImage *image = [UIImage imageNamed: @"ic_good.png"];
+        item.image_proyecto.image = image;
+    }
+    
+    //
+    NSString *acti = monitoring.MONITORING_APPROACH;
+    item.acti_text.text = acti;
+    if([acti isEqualToString:@"0"]){
+        UIImage *image = [UIImage imageNamed: @"ic_bad.png"];
+        item.image_actitud.image = image;
+    }else{
+        UIImage *image = [UIImage imageNamed: @"ic_good.png"];
+        item.image_actitud.image = image;
+    }
+    
+    //
+    NSString *indis = monitoring.MONITORING_INDISCIPLINE;
+    item.indi_text.text = indis;
+    if([indis isEqualToString:@"0"]){
+        UIImage *image = [UIImage imageNamed: @"ic_bad.png"];
+        item.image_indisciplina.image = image;
+    }else{
+        UIImage *image = [UIImage imageNamed: @"ic_good.png"];
+        item.image_indisciplina.image = image;
+    }
+    
+    item.obs.text = [NSString stringWithFormat:@"Observaciones : %@",monitoring.MONITORING_OBSERVATIONS];
     
     return item;
 }
@@ -121,7 +196,7 @@
 
 -(void)getMonitoring:(NSString *)student_id
 {
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
     hud.mode = MBProgressHUDModeIndeterminate;
     hud.labelText = @"Load Monitorings";
     

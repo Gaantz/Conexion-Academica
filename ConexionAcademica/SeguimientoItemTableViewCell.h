@@ -18,4 +18,13 @@
 @property (weak, nonatomic) IBOutlet UIImageView *image_proyecto;
 @property (weak, nonatomic) IBOutlet UIImageView *image_actitud;
 @property (weak, nonatomic) IBOutlet UIImageView *image_indisciplina;
+
+@property (weak, nonatomic) IBOutlet UILabel *eval_text;
+@property (weak, nonatomic) IBOutlet UILabel *mate_text;
+@property (weak, nonatomic) IBOutlet UILabel *trab_text;
+@property (weak, nonatomic) IBOutlet UILabel *proy_text;
+@property (weak, nonatomic) IBOutlet UILabel *acti_text;
+@property (weak, nonatomic) IBOutlet UILabel *indi_text;
+
+@property (weak, nonatomic) IBOutlet UILabel *obs;
 @end
