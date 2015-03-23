@@ -238,7 +238,7 @@
                         </connections>
                     </tableView>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <tabBarItem key="tabBarItem" title="Mensajes" image="ic_message.png" id="bP1-iC-BLt"/>
+                    <tabBarItem key="tabBarItem" title="Mensajes" image="notificaciones.png" id="bP1-iC-BLt"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fvz-gq-YnY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g3C-1P-o4K">
@@ -519,7 +519,7 @@
                         </connections>
                     </tableView>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <tabBarItem key="tabBarItem" title="Calificaciones" image="ic_scores.png" id="0wZ-l8-V3G"/>
+                    <tabBarItem key="tabBarItem" title="Calificaciones" image="calificaciones.png" id="0wZ-l8-V3G"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tS4-3f-zC2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -732,7 +732,7 @@
                         </connections>
                     </tableView>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <tabBarItem key="tabBarItem" title="Seguimiento" image="ic_monitoring.png" id="laz-JX-b2k"/>
+                    <tabBarItem key="tabBarItem" title="Seguimiento" image="seguimiento.png" id="laz-JX-b2k"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0eq-dY-HGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -740,13 +740,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="calificaciones.png" width="30" height="21"/>
         <image name="ic_bad.png" width="50" height="50"/>
         <image name="ic_clip.png" width="50" height="50"/>
-        <image name="ic_message.png" width="25" height="25"/>
         <image name="ic_money_color.png" width="50" height="50"/>
-        <image name="ic_monitoring.png" width="25" height="25"/>
-        <image name="ic_scores.png" width="25" height="25"/>
         <image name="logo_school.png" width="422" height="459"/>
+        <image name="notificaciones.png" width="30" height="21"/>
         <image name="profile_male.png" width="25" height="25"/>
+        <image name="seguimiento.png" width="22" height="30"/>
     </resources>
 </document>

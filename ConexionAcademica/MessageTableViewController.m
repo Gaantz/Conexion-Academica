@@ -82,19 +82,19 @@
     if([message.TYPE_ID isEqual:@"1"])
     {
         //TAREA
-        UIImage *image = [UIImage imageNamed: @"tarea.png"];
+        UIImage *image = [UIImage imageNamed: @"Tareas.png"];
         [item.imagetype setImage:image];
     }
     else if([message.TYPE_ID isEqual:@"2"])
     {
         //PAGOS
-        UIImage *image = [UIImage imageNamed: @"pagos.png"];
+        UIImage *image = [UIImage imageNamed: @"cash.png"];
         [item.imagetype setImage:image];
     }
     else if([message.TYPE_ID isEqual:@"3"])
     {
         //CIRCULARES
-        UIImage *image = [UIImage imageNamed: @"megaphone.png"];
+        UIImage *image = [UIImage imageNamed: @"Bocina.png"];
         [item.imagetype setImage:image];
     }
     

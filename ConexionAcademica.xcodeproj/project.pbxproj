@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0825381AC0C4CF004A2DC7 /* Bocina.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0825321AC0C4CF004A2DC7 /* Bocina.png */; };
+		2A0825391AC0C4CF004A2DC7 /* calificaciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0825331AC0C4CF004A2DC7 /* calificaciones.png */; };
+		2A08253A1AC0C4CF004A2DC7 /* cash.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0825341AC0C4CF004A2DC7 /* cash.png */; };
+		2A08253B1AC0C4CF004A2DC7 /* notificaciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0825351AC0C4CF004A2DC7 /* notificaciones.png */; };
+		2A08253C1AC0C4CF004A2DC7 /* seguimiento.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0825361AC0C4CF004A2DC7 /* seguimiento.png */; };
+		2A08253D1AC0C4CF004A2DC7 /* Tareas.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0825371AC0C4CF004A2DC7 /* Tareas.png */; };
 		2A0928D91A9FBFB500A8BBAC /* Calification_DTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0928D81A9FBFB500A8BBAC /* Calification_DTO.m */; };
 		2A0E153B1AA9386200E42F0F /* appicon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0E15291AA9386200E42F0F /* appicon-60.png */; };
 		2A0E153C1AA9386200E42F0F /* appicon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0E152A1AA9386200E42F0F /* appicon-60@2x.png */; };
@@ -98,6 +104,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A0825321AC0C4CF004A2DC7 /* Bocina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bocina.png; sourceTree = "<group>"; };
+		2A0825331AC0C4CF004A2DC7 /* calificaciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calificaciones.png; sourceTree = "<group>"; };
+		2A0825341AC0C4CF004A2DC7 /* cash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cash.png; sourceTree = "<group>"; };
+		2A0825351AC0C4CF004A2DC7 /* notificaciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notificaciones.png; sourceTree = "<group>"; };
+		2A0825361AC0C4CF004A2DC7 /* seguimiento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seguimiento.png; sourceTree = "<group>"; };
+		2A0825371AC0C4CF004A2DC7 /* Tareas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tareas.png; sourceTree = "<group>"; };
 		2A0928D71A9FBFB500A8BBAC /* Calification_DTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calification_DTO.h; sourceTree = "<group>"; };
 		2A0928D81A9FBFB500A8BBAC /* Calification_DTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calification_DTO.m; sourceTree = "<group>"; };
 		2A0E15291AA9386200E42F0F /* appicon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-60.png"; sourceTree = "<group>"; };
@@ -236,6 +248,12 @@
 		2A0E15281AA9385600E42F0F /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				2A0825321AC0C4CF004A2DC7 /* Bocina.png */,
+				2A0825331AC0C4CF004A2DC7 /* calificaciones.png */,
+				2A0825341AC0C4CF004A2DC7 /* cash.png */,
+				2A0825351AC0C4CF004A2DC7 /* notificaciones.png */,
+				2A0825361AC0C4CF004A2DC7 /* seguimiento.png */,
+				2A0825371AC0C4CF004A2DC7 /* Tareas.png */,
 				2A0E15291AA9386200E42F0F /* appicon-60.png */,
 				2A0E152A1AA9386200E42F0F /* appicon-60@2x.png */,
 				2A0E152B1AA9386200E42F0F /* appicon-60@3x.png */,
@@ -591,6 +609,7 @@
 				2A8BECE21A9850AE0019D21C /* pagos.png in Resources */,
 				2A5441A31A9CD75400DA570D /* ic_homework_color.png in Resources */,
 				2A5441A41A9CD75400DA570D /* ic_inbox_empty.png in Resources */,
+				2A08253C1AC0C4CF004A2DC7 /* seguimiento.png in Resources */,
 				2A5441A01A9CD75400DA570D /* ic_exit.png in Resources */,
 				2A0E15411AA9386200E42F0F /* appicon-76@2x.png in Resources */,
 				2A5441AB1A9CD75400DA570D /* profile_female.png in Resources */,
@@ -612,12 +631,17 @@
 				2A5441AC1A9CD75400DA570D /* profile_male.png in Resources */,
 				2A0E153E1AA9386200E42F0F /* appicon-72.png in Resources */,
 				2AC944A51A85AB86006FE1C1 /* LaunchScreen.xib in Resources */,
+				2A08253B1AC0C4CF004A2DC7 /* notificaciones.png in Resources */,
+				2A0825391AC0C4CF004A2DC7 /* calificaciones.png in Resources */,
 				2A54419E1A9CD75400DA570D /* ic_bad.png in Resources */,
+				2A08253A1AC0C4CF004A2DC7 /* cash.png in Resources */,
+				2A0825381AC0C4CF004A2DC7 /* Bocina.png in Resources */,
 				2A5441A61A9CD75400DA570D /* ic_message.png in Resources */,
 				2A5441A51A9CD75400DA570D /* ic_megaphone.png in Resources */,
 				2A0E15481AA9386200E42F0F /* appicon-Small@3x.png in Resources */,
 				2A4D213A1AA1061100C400B5 /* Empty.xib in Resources */,
 				2ADC9DCB1A8EA06C00E2AAC1 /* logo_school.png in Resources */,
+				2A08253D1AC0C4CF004A2DC7 /* Tareas.png in Resources */,
 				2A0E154C1AA9386200E42F0F /* iTunesArtwork@2x in Resources */,
 				2A5441A11A9CD75400DA570D /* ic_expand.png in Resources */,
 				2A8BECE01A9850AE0019D21C /* ic_clip.png in Resources */,
