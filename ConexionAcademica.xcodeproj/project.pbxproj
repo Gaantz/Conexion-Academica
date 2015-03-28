@@ -73,6 +73,7 @@
 		2A8BECE21A9850AE0019D21C /* pagos.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A8BECDF1A9850AE0019D21C /* pagos.png */; };
 		2AB471071A9A4C41009BE9A7 /* MessageItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB471061A9A4C41009BE9A7 /* MessageItemTableViewCell.m */; };
 		2AB471091A9A54A9009BE9A7 /* megaphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB471081A9A54A9009BE9A7 /* megaphone.png */; };
+		2ABF695A1AC0D266003C957B /* logo_rotterdam.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ABF69591AC0D266003C957B /* logo_rotterdam.png */; };
 		2AC944971A85AB86006FE1C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC944961A85AB86006FE1C1 /* main.m */; };
 		2AC9449A1A85AB86006FE1C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC944991A85AB86006FE1C1 /* AppDelegate.m */; };
 		2AC944A51A85AB86006FE1C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC944A31A85AB86006FE1C1 /* LaunchScreen.xib */; };
@@ -188,6 +189,7 @@
 		2AB471051A9A4C41009BE9A7 /* MessageItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageItemTableViewCell.h; sourceTree = "<group>"; };
 		2AB471061A9A4C41009BE9A7 /* MessageItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageItemTableViewCell.m; sourceTree = "<group>"; };
 		2AB471081A9A54A9009BE9A7 /* megaphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megaphone.png; sourceTree = "<group>"; };
+		2ABF69591AC0D266003C957B /* logo_rotterdam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_rotterdam.png; sourceTree = "<group>"; };
 		2AC944911A85AB86006FE1C1 /* ConexionAcademica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConexionAcademica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC944951A85AB86006FE1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC944961A85AB86006FE1C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 		2A0E15281AA9385600E42F0F /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				2ABF69591AC0D266003C957B /* logo_rotterdam.png */,
 				2A0825321AC0C4CF004A2DC7 /* Bocina.png */,
 				2A0825331AC0C4CF004A2DC7 /* calificaciones.png */,
 				2A0825341AC0C4CF004A2DC7 /* cash.png */,
@@ -657,6 +660,7 @@
 				2A0E15461AA9386200E42F0F /* appicon-Small.png in Resources */,
 				2A0E154A1AA9386200E42F0F /* appicon@2x.png in Resources */,
 				2A54419D1A9CD75400DA570D /* circle_red.png in Resources */,
+				2ABF695A1AC0D266003C957B /* logo_rotterdam.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

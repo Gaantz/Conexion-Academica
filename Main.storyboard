@@ -79,7 +79,7 @@
                                     <action selector="entrar:" destination="sM6-vb-Sur" eventType="touchUpInside" id="a4d-I7-LCy"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_school.png" translatesAutoresizingMaskIntoConstraints="NO" id="9a1-9m-XKK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_rotterdam.png" translatesAutoresizingMaskIntoConstraints="NO" id="9a1-9m-XKK">
                                 <rect key="frame" x="226" y="179" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="Gns-7i-Z55"/>
@@ -744,7 +744,7 @@
         <image name="ic_bad.png" width="50" height="50"/>
         <image name="ic_clip.png" width="50" height="50"/>
         <image name="ic_money_color.png" width="50" height="50"/>
-        <image name="logo_school.png" width="422" height="459"/>
+        <image name="logo_rotterdam.png" width="1024" height="1024"/>
         <image name="notificaciones.png" width="30" height="21"/>
         <image name="profile_male.png" width="25" height="25"/>
         <image name="seguimiento.png" width="22" height="30"/>
